@@ -23,7 +23,7 @@ python <RollNumber>.py "<Singer Name>" <NumberOfVideos> <DurationSeconds> <Outpu
 ### Example
 
 ```bash
-python 102483080.py "Sharry Maan" 20 20 101556-output.mp3
+python 102483080.py "Sharry Maan" 20 20 final_output.mp3
 ```
 
 ---

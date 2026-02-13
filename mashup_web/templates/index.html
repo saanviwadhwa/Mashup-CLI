@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mashup Service</title>
+</head>
+<body>
+    <h2>Mashup Generator</h2>
+
+    <form method="POST">
+        Singer Name:<br>
+        <input type="text" name="singer" required><br><br>
+
+        Number of Videos:<br>
+        <input type="number" name="count" required><br><br>
+
+        Duration (seconds):<br>
+        <input type="number" name="duration" required><br><br>
+
+        Email ID:<br>
+        <input type="email" name="email" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p>{{ message }}</p>
+</body>
+</html>
